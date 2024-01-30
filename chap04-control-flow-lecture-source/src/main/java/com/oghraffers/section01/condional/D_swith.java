@@ -66,7 +66,7 @@ public class D_swith {
             case "사이다":result=2300*number;break;
             case "커피":result=8900*number;break;
             default:
-                System.out.println("error");
+                System.out.println("error");return;
 
         }
         System.out.println(name+"를"+number+"개 선택하셧습니다"+result+"을 넣어주세요");
