@@ -1,5 +1,7 @@
 package com.oghraffers.section01.condional;
 
+import java.util.Scanner;
+
 public class D_swith {
 
     public void cimpleswitchstatemment(){
@@ -12,6 +14,27 @@ public class D_swith {
         *     default: 위 case에 모두 당하지않을경우 실행할 구문;brake;
         * }
         * */
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("첫정수입력:");
+        int fName= sc.nextInt();
+        System.out.println("두번째 정수입력");
+        int sName= sc.nextInt();
+        System.out.println("연산기호 입력(+._.*./.%)");
+        char op=sc.next().charAt(0);
+
+        /*연산결과를 저장할 변수*/
+        int result= 0;
+
+        switch (op){
+            case '+':result=fName+sName;
+            case '-':result=fName+sName;
+            case '*':result=fName*sName;
+            case '/':result=fName/sName;
+            case '%':result=fName%sName;
+            default:
+                System.out.println("error");
+        }
 
     }
 }
