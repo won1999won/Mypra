@@ -9,9 +9,17 @@ public class Application1 {
 //        b.test4();
 //        A_nestdeFor c=new A_nestdeFor();
 //        c.printgugudanfromtwotonine();
-        A_nestdeFor d=new A_nestdeFor();
+//        A_nestdeFor d=new A_nestdeFor();
 //        d.printstarinputrowtime();
-        d.printstar(42);
+//        d.printstar(42);
+//        B_while b=new B_while();
+//        b.whilex2();
+//        b.wheliex3();
+        C_doWhile c=new C_doWhile();
+//        c.simpeldowhilesatement();
+        c.testdowjilexample1();
+
+
 
 
 
