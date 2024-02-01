@@ -33,4 +33,22 @@ public class B_continue {
             }
         }
     }
+    public void testjumpcontinue(){
+        label:
+        for (int dan=2;dan<10;dan++) {
+            System.out.println("=====" + dan + "=====");
+
+
+            label2:
+            for (int su = 1; su < 10; su++) {
+                if (su % 2 == 0) {
+                    continue label;
+                }
+                System.out.println(dan + "*" + su + "="+(dan*su));
+
+            }
+            System.out.println();
+        }
+
+    }
 }
