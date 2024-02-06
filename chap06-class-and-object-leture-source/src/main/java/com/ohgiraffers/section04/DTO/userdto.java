@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.ohgiraffers.section04.DTO;
 
 public class userdto {
@@ -63,9 +62,3 @@ public class userdto {
     }
 }
 
-
-
-=======
-package com.ohgiraffers.section04.DTO;public class userdot {
-}
->>>>>>> kjw11/untitled1
