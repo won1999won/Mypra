@@ -14,21 +14,21 @@ public class firecar extends car {
          * 오버라이딩 하는 메소드는 기본적으로 부모 메소드 선언 내용을 그대로 작성해야한다
          * */
 
-        @Override
+//        @Override
 
-        public void soundhorn() {
-            if (isrunning()) {
-                System.out.println("쁘에에엥");
-            } else {
-                System.out.println("전진불가");
-            }
-
-
-
-        }
-        public void spraywater(){
-            System.out.println("물싸개 실시!");
+//        public void soundhorn() {
+//            if (isrunning()) {
+//                System.out.println("쁘에에엥");
+//            } else {
+//                System.out.println("전진불가");
+//            }
+//
+//
+//
+//        }
+//        public void spraywater(){
+//            System.out.println("물싸개 실시!");
     }
 
     }
-}
+
