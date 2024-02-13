@@ -26,18 +26,20 @@ public class Run {
         String in=scanner.next();
         int countem=0;
 
+
         do {
             System.out.print("이름:");
             String name=scanner.nextLine();
-            System.out.println("나이");
+            System.out.println("나이:");
             int age= scanner.nextInt();
-            System.out.println("신장");
+            System.out.println("신장:");
             double height=scanner.nextDouble();
             System.out.println("몸무게");
             double weight= scanner.nextDouble();
             System.out.println("급여");
             int saraly=scanner.nextInt();
             System.out.println("부서");
+            scanner.nextLine();
             String dept=scanner.nextLine();
 
             employee[employeeCt]=new Employee(name,age,height,weight,saraly,dept);
@@ -45,7 +47,7 @@ public class Run {
             countem++;
             scanner.nextLine();
             System.out.print("계속입력? y/n");
-            in=scanner.next();
+            in=scanner.nextLine();
 
 
         }while(!in.equals("n"));
