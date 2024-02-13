@@ -20,48 +20,54 @@ public class Run {
         }
 
 
-        Employee[] employee =new Employee[10];
+        Employee[][] employee =new Employee[10][6];
         Scanner scanner=new Scanner(System.in);
         int employeeCt=0;
-        String in=scanner.next();
+        String in;
         int countem=0;
 
 
-        do {
+        while (true){
             System.out.print("이름:");
             String name=scanner.nextLine();
-            System.out.println("나이:");
+            System.out.print("나이:");
             int age= scanner.nextInt();
-            System.out.println("신장:");
+            System.out.print("신장:");
             double height=scanner.nextDouble();
-            System.out.println("몸무게");
+            System.out.print("몸무게");
             double weight= scanner.nextDouble();
-            System.out.println("급여");
+            System.out.print("급여");
             int saraly=scanner.nextInt();
-            System.out.println("부서");
+            System.out.print("부서");
             scanner.nextLine();
             String dept=scanner.nextLine();
 
-            employee[employeeCt]=new Employee(name,age,height,weight,saraly,dept);
+            Employee employee1=new Employee(name,age,height,weight,saraly,dept);
+            employee[employeeCt][0]=employee1;
+
 
             countem++;
-            scanner.nextLine();
             System.out.print("계속입력? y/n");
             in=scanner.nextLine();
+            if (in.equalsIgnoreCase("n")){
+                break;
+            }
 
 
-        }while(!in.equals("n"));
-            System.out.println("종료");
+        }
+        System.out.println("입력횟수:"+countem);
 
 
-        for (int i=0;i<employee.length;i++){
-            System.out.println(employee[i]);
-            System.out.println(countem);
+        System.out.println("출력");
+        for (int i=0;i<countem;i++){
+            for (int x=0;x<countem;x++){
+                System.out.println("이름: " +employee[i][x].getName()+
+                        "나이: " +employee[i][x].getAge()+
+                        "신장: " +employee[i][x].getHeight()+
+                        "몸무계: " +employee[i][x].getWeight()+
+                        "급여: " +employee[i][x].getSalary()+
+                        "부서: " +employee[i][x].getDept());
+            }
         }
     }
-
-
-
-
-
 }

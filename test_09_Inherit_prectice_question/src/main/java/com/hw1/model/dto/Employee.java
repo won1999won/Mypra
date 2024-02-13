@@ -27,9 +27,14 @@ public class Employee extends Person{
     @Override
     public String toString() {
         return "Employee{" +
-                "salary=" + salary +
+                "name='" + getName() + '\'' +
+                ", age=" + getAge() +
+                ", height=" + getHeight() +
+                ", weight=" + getWeight() +
+                ", salary=" + salary +
                 ", dept='" + dept + '\'' +
                 '}';
+
     }
 
     public Employee(int salary, String dept) {
@@ -43,8 +48,6 @@ public class Employee extends Person{
         this.salary = salary;
         this.dept = dept;
     }
-    public String information(){
-         return "salary:"+ salary+"dept"+dept;
 
     }
-}
+
