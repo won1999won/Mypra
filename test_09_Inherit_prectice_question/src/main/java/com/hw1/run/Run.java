@@ -44,7 +44,7 @@ public class Run {
 
             Employee employee1 = new Employee(name, age, height, weight, saraly, dept);
 
-            employee[countem]=employee1;
+            employsee[countem]=employee1;
 
 
             countem++;
