@@ -30,7 +30,7 @@ public class LibraryMenu {
             Book[] searchList = lm.searchBook(search);
             for (Book book:searchList) {
                 if (book != null) {
-                    System.out.println(book);
+                    System.out.println(book.getTitle());
                 }
             }
 
