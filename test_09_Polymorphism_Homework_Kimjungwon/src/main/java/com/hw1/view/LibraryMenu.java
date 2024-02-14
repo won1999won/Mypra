@@ -4,6 +4,7 @@ import com.hw1.controller.LibraryManager;
 import com.hw1.model.dto.Book;
 import com.hw1.model.dto.Member;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LibraryMenu {
@@ -26,13 +27,16 @@ public class LibraryMenu {
 
         }
         public void searchBook () {
-            String search=sc.nextLine();
-            Book[] searchList = lm.searchBook(search);
+            sc.nextLine();
+            System.out.print("검색항목입력:");
+            String keyword=sc.nextLine();
+            Book[] searchList = lm.searchBook(keyword);
             for (Book book:searchList) {
                 if (book != null) {
                     System.out.println(book.getTitle());
                 }
             }
+
 
 
         }

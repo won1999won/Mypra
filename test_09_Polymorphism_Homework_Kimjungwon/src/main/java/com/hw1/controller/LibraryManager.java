@@ -5,6 +5,8 @@ import com.hw1.model.dto.Book;
 import com.hw1.model.dto.CookBook;
 import com.hw1.model.dto.Member;
 
+import java.util.Arrays;
+
 
 public class LibraryManager {
     private Member mem = null;
@@ -37,6 +39,7 @@ public class LibraryManager {
         for (Book book : blist) {
             if (book != null && book.getTitle().contains(keyword)) {
                 book2[count++] = book;
+                return Arrays.copyOf(book2, count);
 
             }
 
