@@ -1,5 +1,6 @@
 package com.test;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class person {
@@ -67,16 +68,22 @@ public class person {
     }
 
     public void mydog() {
-        System.out.println("강아지이름:"+DOG.dogname+"재주"+DOG.getEx());
+        System.out.println("강아지이름:"+DOG.dogname+"재주"+ Arrays.toString(DOG.getEx()));
     }
 
-    public void teachDog(String Ablilty) {
+    public void teachDog(String[] Ablilty) {
         /*재주설정*/
         if (DOG.dogname != null) {
-            DOG.setEx(Ablilty);
+            DOG.learnAblilty(Ablilty);
 
 
         }
+
+
+
+    }
+    public  void ordertodog(){
+        DOG.doSomTingVoid(sc.next());
 
 
     }
