@@ -8,27 +8,32 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory;
 
+
 public class Template {
+
+    private static String DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static String URL = "jdbc:mysql://localhost/menudb";
+    private static String USER = "ohgiraffers";
+    private static String PASSWORD = "ohgiraffers";
 
     private static SqlSessionFactory sqlSessionFactory;
 
-    private static String Driver="com.mysql.cj.jdbc.Driver";
-    private static String Url="jdbc:mysql://localhost/menudb";
-    private static String USeR="ohgiraffers";
-    private static String Password="ohgiraffers";
     public static SqlSession getSqlSession() {
 
         if(sqlSessionFactory == null) {
+            Environment environment =
+                    new Environment("dev"
+                    , new JdbcTransactionFactory()
+                    , new PooledDataSource(DRIVER, URL, USER, PASSWORD));
 
-            Environment environment=new Environment("dev",new JdbcTransactionFactory(),new  PooledDataSource(Driver,Url,USeR,Password));
-            Configuration configuration=new Configuration(environment);
+            Configuration configuration = new Configuration(environment);
 
             configuration.addMapper(MenuMapper.class);
 
-            sqlSessionFactory=new SqlSessionFactoryBuilder().build(configuration);
-            }
+            sqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);
+
+        }
         return sqlSessionFactory.openSession(false);
-
-    }
     }
 
+}

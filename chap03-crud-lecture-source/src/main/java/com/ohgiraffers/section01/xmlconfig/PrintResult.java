@@ -16,11 +16,10 @@ public class PrintResult {
         String errorMessage = "";
         switch (errorCode) {
             case "selectList" : errorMessage = "메뉴 목록 조회를 실패하였습니다."; break;
-            case "selectOne": errorMessage = "메뉴 조회를 실패하였습니다."; break;
-            case "insert":errorMessage="등록실패";break;
-            case  "update":errorMessage="수정실패";break;
-            case  "delete":errorMessage="삭제실패";break;
-
+            case "selectOne" : errorMessage = "메뉴 조회를 실패하였습니다."; break;
+            case "insert" : errorMessage = "신규 메뉴 등록을 실패하였습니다."; break;
+            case "update" : errorMessage = " 메뉴 수정을 실패하였습니다."; break;
+            case "delete" : errorMessage = "메뉴 삭제를 실패하였습니다."; break;
         }
         System.out.println(errorMessage);
     }
@@ -28,13 +27,16 @@ public class PrintResult {
     public void printMenu(MenuDTO menu) {
         System.out.println(menu);
     }
-    public  void  printSuccessMessage(String successCode){
-        String successMassage="";
-        switch (successCode){
-            case "insert":successMassage="등록성공";break;
-            case "update":successMassage="수정성공";break;
-            case "delete":successMassage="삭제성공";break;
+
+    public void printSuccessMessage(String successCode) {
+
+        String successMassage = "";
+        switch (successCode) {
+            case "insert" : successMassage = "신규 메뉴 등록을 성공하였습니다."; break;
+            case "update" : successMassage = "메뉴 수정을 성공하였습니다."; break;
+            case "delete" : successMassage = "메뉴 삭제를 성공하였습니다."; break;
         }
+
         System.out.println(successMassage);
     }
 }
