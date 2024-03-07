@@ -67,9 +67,9 @@ public class ProductController {
 
         SearchCondition searchCondition=new SearchCondition();
         ProductDTO productDTO=new ProductDTO();
-        productDTO.setPRODUCT_NAME(sc.nextLine());
-        productDTO.setPRODUCT_CODE(sc.nextLine());
-        productDTO.setORIGIN_COST(sc.nextLine());
+        productDTO.setProductName(sc.nextLine());
+        productDTO.setProductCode(sc.nextLine());
+        productDTO.setOriginCost(sc.nextLine());
 
         // 4. 제품 정보를 등록하는 메소드
         //    (조건 1) 화면에서 releaseDate를 0000-00-00 형태로 받아옵니다.

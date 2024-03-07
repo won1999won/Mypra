@@ -113,15 +113,15 @@ public class ProductMenu {
         String productCode = sc.nextLine();
 
         ProductDTO productDTO = new ProductDTO();
-        productDTO. setPRODUCT_CODE(productCode);
+        productDTO. setProductCode(productCode);
 
         System.out.println("제품의 판매량을 입력해 주세요 : ");
         String salesQuantity  = sc.nextLine();
         System.out.println("제품의 생산여부를 입력해 주세요(Y:생산중 / H:생산보류 / N:생산중단) : ");
         String productionStatus = sc.nextLine().toUpperCase();
 
-        productDTO.setSALES_QUANTITY(salesQuantity);
-        productDTO.setPRODUCTION_STATUS(productionStatus);
+        productDTO.setSalesQuantity(salesQuantity);
+        productDTO.setProduction(productionStatus);
 
         System.out.println("===================================");
 
@@ -144,12 +144,12 @@ public class ProductMenu {
         System.out.println("제품의 할인율을 입력해 주세요 : ");
         String discountRate  = sc.nextLine();
 
-        productDTO.setPRODUCT_NAME(productName);
-        productDTO.setPRODUCT_CODE(categoryCode);
-        productDTO.setORIGIN_COST(originCost);
-        productDTO.setRELEASE_DATE(releaseDate);
-        productDTO.setSTOCK_QUANTITY(stockQuantity);
-        productDTO.setDISCOUNT_RATE(discountRate);
+        productDTO.setProductName(productName);
+        productDTO.setProductCode(categoryCode);
+        productDTO.setOriginCost(originCost);
+        productDTO.setReleaseDate(releaseDate);
+        productDTO.setStockQuantity(stockQuantity);
+        productDTO.setDiscountRate(discountRate);
 
         return productDTO;
     }

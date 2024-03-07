@@ -2,115 +2,115 @@ package com.management.product.model.dto;
 
 public class ProductDTO {
 
-    private String PRODUCT_CODE;
-    private String PRODUCT_NAME;
-    private String ORIGIN_COST;
-    private String RELEASE_DATE;
-    private String DISCOUNT_RATE;
-    private String SALES_QUANTITY;
-    private String STOCK_QUANTITY;
-    private String CATEGORY_CODE;
-    private String PRODUCTION_STATUS;
+    private String productCode;
+    private String productName;
+    private String originCost;
+    private String releaseDate;
+    private String discountRate;
+    private String salesQuantity;
+    private String stockQuantity;
+    private String categoryCode;
+    private String production;
 
     public ProductDTO() {
     }
 
-    public ProductDTO(String PRODUCT_CODE, String PRODUCT_NAME, String ORIGIN_COST, String RELEASE_DATE, String DISCOUNT_RATE, String SALES_QUANTITY, String STOCK_QUANTITY, String CATEGORY_CODE, String PRODUCTION_STATUS) {
-        this.PRODUCT_CODE = PRODUCT_CODE;
-        this.PRODUCT_NAME = PRODUCT_NAME;
-        this.ORIGIN_COST = ORIGIN_COST;
-        this.RELEASE_DATE = RELEASE_DATE;
-        this.DISCOUNT_RATE = DISCOUNT_RATE;
-        this.SALES_QUANTITY = SALES_QUANTITY;
-        this.STOCK_QUANTITY = STOCK_QUANTITY;
-        this.CATEGORY_CODE = CATEGORY_CODE;
-        this.PRODUCTION_STATUS = PRODUCTION_STATUS;
+    public ProductDTO(String productCode, String productName, String originCost, String releaseDate, String discountRate, String salesQuantity, String stockQuantity, String categoryCode, String production) {
+        this.productCode = productCode;
+        this.productName = productName;
+        this.originCost = originCost;
+        this.releaseDate = releaseDate;
+        this.discountRate = discountRate;
+        this.salesQuantity = salesQuantity;
+        this.stockQuantity = stockQuantity;
+        this.categoryCode = categoryCode;
+        this.production = production;
     }
 
-    public String getPRODUCT_CODE() {
-        return PRODUCT_CODE;
+    public String getProductCode() {
+        return productCode;
     }
 
-    public void setPRODUCT_CODE(String PRODUCT_CODE) {
-        this.PRODUCT_CODE = PRODUCT_CODE;
+    public void setProductCode(String productCode) {
+        this.productCode = productCode;
     }
 
-    public String getPRODUCT_NAME() {
-        return PRODUCT_NAME;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setPRODUCT_NAME(String PRODUCT_NAME) {
-        this.PRODUCT_NAME = PRODUCT_NAME;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
-    public String getORIGIN_COST() {
-        return ORIGIN_COST;
+    public String getOriginCost() {
+        return originCost;
     }
 
-    public void setORIGIN_COST(String ORIGIN_COST) {
-        this.ORIGIN_COST = ORIGIN_COST;
+    public void setOriginCost(String originCost) {
+        this.originCost = originCost;
     }
 
-    public String getRELEASE_DATE() {
-        return RELEASE_DATE;
+    public String getReleaseDate() {
+        return releaseDate;
     }
 
-    public void setRELEASE_DATE(String RELEASE_DATE) {
-        this.RELEASE_DATE = RELEASE_DATE;
+    public void setReleaseDate(String releaseDate) {
+        this.releaseDate = releaseDate;
     }
 
-    public String getDISCOUNT_RATE() {
-        return DISCOUNT_RATE;
+    public String getDiscountRate() {
+        return discountRate;
     }
 
-    public void setDISCOUNT_RATE(String DISCOUNT_RATE) {
-        this.DISCOUNT_RATE = DISCOUNT_RATE;
+    public void setDiscountRate(String discountRate) {
+        this.discountRate = discountRate;
     }
 
-    public String getSALES_QUANTITY() {
-        return SALES_QUANTITY;
+    public String getSalesQuantity() {
+        return salesQuantity;
     }
 
-    public void setSALES_QUANTITY(String SALES_QUANTITY) {
-        this.SALES_QUANTITY = SALES_QUANTITY;
+    public void setSalesQuantity(String salesQuantity) {
+        this.salesQuantity = salesQuantity;
     }
 
-    public String getSTOCK_QUANTITY() {
-        return STOCK_QUANTITY;
+    public String getStockQuantity() {
+        return stockQuantity;
     }
 
-    public void setSTOCK_QUANTITY(String STOCK_QUANTITY) {
-        this.STOCK_QUANTITY = STOCK_QUANTITY;
+    public void setStockQuantity(String stockQuantity) {
+        this.stockQuantity = stockQuantity;
     }
 
-    public String getCATEGORY_CODE() {
-        return CATEGORY_CODE;
+    public String getCategoryCode() {
+        return categoryCode;
     }
 
-    public void setCATEGORY_CODE(String CATEGORY_CODE) {
-        this.CATEGORY_CODE = CATEGORY_CODE;
+    public void setCategoryCode(String categoryCode) {
+        this.categoryCode = categoryCode;
     }
 
-    public String getPRODUCTION_STATUS() {
-        return PRODUCTION_STATUS;
+    public String getProduction() {
+        return production;
     }
 
-    public void setPRODUCTION_STATUS(String PRODUCTION_STATUS) {
-        this.PRODUCTION_STATUS = PRODUCTION_STATUS;
+    public void setProduction(String production) {
+        this.production = production;
     }
 
     @Override
     public String toString() {
         return "ProductDTO{" +
-                "PRODUCT_CODE=" + PRODUCT_CODE +
-                ", PRODUCT_NAME='" + PRODUCT_NAME + '\'' +
-                ", ORIGIN_COST=" + ORIGIN_COST +
-                ", RELEASE_DATE='" + RELEASE_DATE + '\'' +
-                ", DISCOUNT_RATE=" + DISCOUNT_RATE +
-                ", SALES_QUANTITY=" + SALES_QUANTITY +
-                ", STOCK_QUANTITY=" + STOCK_QUANTITY +
-                ", CATEGORY_CODE=" + CATEGORY_CODE +
-                ", PRODUCTION_STATUS=" + PRODUCTION_STATUS +
+                "productCode='" + productCode + '\'' +
+                ", productName='" + productName + '\'' +
+                ", originCost='" + originCost + '\'' +
+                ", releaseDate='" + releaseDate + '\'' +
+                ", discountRate='" + discountRate + '\'' +
+                ", salesQuantity='" + salesQuantity + '\'' +
+                ", stockQuantity='" + stockQuantity + '\'' +
+                ", categoryCode='" + categoryCode + '\'' +
+                ", production='" + production + '\'' +
                 '}';
     }
     // * 주석을 지우고 제품 정보를 담는 객체를 만들 java class를 작성하세요.

@@ -5,40 +5,50 @@
 
 <!-- * 주석을 지우고 각각 알맞은 태그를 활용하여 내용을 작성하세요. -->
 
+<mapper namespace="com.management.product.model.dao.ProductDAO">
 <!-- 1. namesapce 설정을 알맞게 지정하세요. -->
-<mapper namespace="ProductDAO">
 
-    <resultMap id="com.management.product.model.dto.ProductDTO" type="productResultMap">
+    <resultMap id="ProductResultMap" type="com.management.product.model.dto.ProductDTO">
         <id property="productCode" column="PRODUCT_CODE"/>
-        <id property="productName" column="PRODUCT_NAME"/>
-        <id property="originCost" column="ORIGIN_COST"/>
-        <id property="releaseDate" column="RELEASE_DATE"/>
-        <id property="discountRate" column="DISCOUNT_RATE"/>
-        <id property="salesQuantity" column="SALES_QUANTITY"/>
-        <id property="stockQuantity" column="STOCK_QUANTITY"/>
-        <id property="categoryCode" column="CATEGORY_CODE"/>
-        <id property="production" column="PRODUCTION_STATUS"/>
+        <result property="productName" column="PRODUCT_NAME"/>
+        <result property="originCost" column="ORIGIN_COST"/>
+        <result property="releaseDate" column="RELEASE_DATE"/>
+        <result property="discountRate" column="DISCOUNT_RATE"/>
+        <result property="salesQuantity" column="SALES_QUANTITY"/>
+        <result property="stockQuantity" column="STOCK_QUANTITY"/>
+        <result property="categoryCode" column="CATEGORY_CODE"/>
+        <result property="production" column="PRODUCTION_STATUS"/>
     </resultMap>
 
     <!-- 2. ProductDTO type의 resultMap을 설정하세요. -->
-    <select id="selectAllproductList" resultMap="productResultMap">
-        SELECT PRODUCT_CODE
-        ,PRODUCT_NAME
-        ,ORIGIN_COST
-        ,RELEASE_DATE
-        ,DISCOUNT_RATE
-        ,SALES_QUANTITY
-        ,STOCK_QUANTITY
-        ,CATEGORY_CODE
-        ,PRODUCTION_STATUS
-        FROM product_info
+<!--    <select id="selectAllProductList" resultMap="ProductResultMap">-->
+<!--        SELECT PRODUCT_CODE-->
+<!--        ,PRODUCT_NAME-->
+<!--        ,ORIGIN_COST-->
+<!--        ,RELEASE_DATE-->
+<!--        ,DISCOUNT_RATE-->
+<!--        ,SALES_QUANTITY-->
+<!--        ,STOCK_QUANTITY-->
+<!--        ,CATEGORY_CODE-->
+<!--        ,PRODUCTION_STATUS-->
+<!--        FROM PRODUCT_INFO-->
+<!--        ORDER BY PRODUCT_CODE-->
+<!--    </select>-->
+
+    <select id="selectAllProductList" resultType="ProductResultMap">
+        SELECT*
+        FROM PRODUCT_INFO
         ORDER BY PRODUCT_CODE
     </select>
-
     <!-- 3. 전체 목록을 조회하는 쿼리를 작성하세요.
             (쿼리id) selectAllProductList -->
 
+
+    <select id="selectProductByCondition" resultType="ProductResultMap">
+
+    </select>
     <!-- 4. 조건에 따른 목록을 조회하는 쿼리를 작성하세요.
+
             (쿼리id) selectProductByCondition
             (참고 1) 제품명 조회인 경우, 검색어를 '포함'한 모든 제품을 조회합니다.
                      (예시) '솔' 검색 -> 솔방울, 칫솔 등 '솔' 포함 제품 모두 조회

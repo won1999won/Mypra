@@ -6,7 +6,12 @@
 <!-- * 주석을 지우고 각각 알맞은 태그를 활용하여 내용을 작성하세요. -->
 
 <!-- 1. namesapce 설정을 알맞게 지정하세요. -->
-<mapper namespace="">
+<mapper namespace="com.management.category.model.dao.CategoryDAO">
+
+    <resultMap id="categoryResultMap" type="com.management.category.model.dto.CategoryDTO">
+        <id property="categoryCode" column="CATEGORY_CODE"/>
+        <result property="categoryName" column="CATEGORY_NAME"/>
+    </resultMap>
 
     <!-- 2. CategoryDTO type의 resultMap을 설정하세요. -->
 

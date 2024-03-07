@@ -20,7 +20,7 @@ public class ProductService {
     public List<ProductDTO> selectAllProductList() {
         SqlSession sqlSession = getSqlSession();
         productDAO1 = sqlSession.getMapper(ProductDAO.class);
-        List<ProductDTO> menuList = productDAO1.printAllProductList();
+        List<ProductDTO> menuList = productDAO1.selectAllProductList();
         sqlSession.close();
         // 2. 전체 제품 목록을 조회하는 로직을 작성하세요.
         // 　　아래 작성된 return null은 과제 툴 오류를 제거하고자 임의 작성하였으니 지우고 로직을 작성하세요.

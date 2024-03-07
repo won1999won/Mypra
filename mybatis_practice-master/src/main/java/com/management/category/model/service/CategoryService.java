@@ -1,9 +1,13 @@
 package com.management.category.model.service;
 
+import com.management.category.model.dao.CategoryDAO;
 import com.management.category.model.dto.CategoryDTO;
+import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;
 import java.util.Map;
+
+import static com.common.Template.getSqlSession;
 
 public class CategoryService {
 
@@ -11,11 +15,17 @@ public class CategoryService {
 
     // 1. 자주 사용할 DAO 객체를 선언하세요.
 
+    public CategoryDAO categoryDAO;
+
     public List<CategoryDTO> selectCategoryList(Map<String, String> parameter) {
 
+        SqlSession sqlSession = getSqlSession();
+        categoryDAO=sqlSession.getMapper(CategoryDAO.class);
+        List<CategoryDTO> categoryDTOList=categoryDAO.selectCategoryList();
+        sqlSession.close();
         // 2. 제품분류 목록을 조회하는 로직을 작성하세요.
         // 　　아래 작성된 return null은 과제 툴 오류를 제거하고자 임의 작성하였으니 지우고 로직을 작성하세요.
-        return null;
+        return categoryDTOList;
 
     }
 

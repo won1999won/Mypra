@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface ProductDAO {
-    List<ProductDTO> printAllProductList();
+    List<ProductDTO> selectAllProductList();
 
     List<ProductDTO> selectProductByCondition(SearchCondition searchCondition);
 
@@ -16,6 +16,7 @@ public interface ProductDAO {
     int updateMenu(ProductDTO product);
 
     int deleteMenu(Map<String, String> parameter);
+
 
     // * 주석을 지우고 Mapper interface(= DAO class) 역할을 하도록 내용을 작성하세요.
 
