@@ -3,6 +3,7 @@ package com.management.product.controller;
 import com.common.SearchCondition;
 import com.management.product.model.dto.ProductDTO;
 import com.management.product.model.service.ProductService;
+import com.management.product.view.ProductMenu;
 import com.management.product.view.ProductPrint;
 
 import java.util.List;
@@ -64,12 +65,15 @@ public class ProductController {
     public void registNewProduct(ProductDTO product) {
 
         Scanner sc=new Scanner(System.in);
-
-        SearchCondition searchCondition=new SearchCondition();
+        ProductMenu productMenu=new ProductMenu();
         ProductDTO productDTO=new ProductDTO();
-        productDTO.setProductName(sc.nextLine());
-        productDTO.setProductCode(sc.nextLine());
-        productDTO.setOriginCost(sc.nextLine());
+        System.out.println("등록날찌 입력 ****-&&-%%");
+        String releaseDateInput = productDTO.getReleaseDate();
+
+        String releaseDate = releaseDateInput.replaceAll("-", "");
+        productDTO.setReleaseDate(releaseDate);
+        productDTO.setProduction("Y");
+        productDTO.setSalesQuantity("0");
 
         // 4. 제품 정보를 등록하는 메소드
         //    (조건 1) 화면에서 releaseDate를 0000-00-00 형태로 받아옵니다.

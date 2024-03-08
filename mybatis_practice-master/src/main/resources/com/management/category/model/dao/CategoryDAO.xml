@@ -5,8 +5,8 @@
 
 <!-- * 주석을 지우고 각각 알맞은 태그를 활용하여 내용을 작성하세요. -->
 
-<!-- 1. namesapce 설정을 알맞게 지정하세요. -->
 <mapper namespace="com.management.category.model.dao.CategoryDAO">
+<!-- 1. namesapce 설정을 알맞게 지정하세요. -->
 
     <resultMap id="categoryResultMap" type="com.management.category.model.dto.CategoryDTO">
         <id property="categoryCode" column="CATEGORY_CODE"/>
@@ -16,6 +16,9 @@
     <!-- 2. CategoryDTO type의 resultMap을 설정하세요. -->
 
 
+<select id="selectCategoryList" resultType="categoryResultMap">
+
+</select>
     <!--3. 조건에 따른 제품분류 목록을 조회하는 쿼리를 작성하세요.
         (쿼리id) selectCategoryList
         (조건) 전체 조회 or 제품분류 순위로 정렬해 조회하는 조건에 따른 Dynamic SQL로 작성하세요.
