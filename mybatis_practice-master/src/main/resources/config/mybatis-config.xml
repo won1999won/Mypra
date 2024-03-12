@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "https://mybatis.org/dtd/mybatis-3-config.dtd" >
 <configuration>
-
     <properties resource="config/connection-info.properties"/>
+    <typeAliases>
+        <typeAlias type="com.management.product.model.dto.ProductDTO" alias="ProductDTO"/>
+        <typeAlias type="com.management.category.model.dao.CategoryDAO" alias="CategoryDAO"/>
+    </typeAliases>
     <environments default="dev">
         <environment id="dev">
             <transactionManager type="JDBC"/>
@@ -14,6 +17,7 @@
             </dataSource>
         </environment>
     </environments>
+
 <mappers>
     <package name="com.management.product.model.dao"/>
     <package name="com.management.category.model.dao"/>

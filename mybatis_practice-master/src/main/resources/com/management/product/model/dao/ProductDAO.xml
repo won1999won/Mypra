@@ -7,8 +7,7 @@
 
 <mapper namespace="com.management.product.model.dao.ProductDAO">
 <!-- 1. namesapce 설정을 알맞게 지정하세요. -->
-
-    <resultMap id="ProductResultMap" type="com.management.product.model.dto.ProductDTO">
+    <resultMap id="ProductResultMap" type="ProductDTO">
         <id property="productCode" column="PRODUCT_CODE"/>
         <result property="productName" column="PRODUCT_NAME"/>
         <result property="originCost" column="ORIGIN_COST"/>
@@ -56,7 +55,7 @@
         ,PRODUCTION_STATUS
         FROM PRODUCT_INFO
         <if test="searchCondition == productName">
-            AND WHERE LIKE PRODUCT_NAME=#{ searchCondition.productName }
+            WHERE PRODUCT_NAME LIKE CONCAT('%', #{productName}, '%')
         </if>
         <if test="searchCondition == '백화점'">
             AND SALES_QUANTITY = 0
@@ -76,20 +75,44 @@
 
     <insert id="insertProduct" parameterType="com.management.product.model.dto.ProductDTO">
         INSERT INTO PRODUCT_INFO(
-        RELEASE_DATA
+        RELEASE_DATE
         ,PRODUCT_NAME
         ,PRODUCT_CODE
         ,ORIGIN_COST)
         VALUES(
-        #{  }
+        #{releaseDate}
+        ,#{productName}
+        ,#{productCode}
+        ,#{originCost})
 
     </insert>
     <!-- 5. 제품 정보를 등록하는 쿼리를 작성하세요.
             (쿼리id) insertProduct -->
 
+    <update id="updateProduct" parameterType="com.management.product.model.dto.ProductDTO">
+        UPDATE PRODUCT_INFO
+        <set>
+            <if test="productName != null">
+                PRODUCT_NAME = #{productName},
+            </if>
+            <if test="originCost != null">
+                ORIGIN_COST = #{originCost},
+            </if>
+            <if test="releaseDate != null">
+                RELEASE_DATE = #{releaseDate},
+            </if>
+            <!-- 여기에 필요한 수정 대상 필드를 추가하세요 -->
+        </set>
+        WHERE PRODUCT_CODE = #{productCode}
+    </update>
+
     <!-- 6. 사용자가 수정을 원하는 데이터만 수정하도록 Dynamic Query를 활용한 쿼리를 작성하세요.
             (쿼리id) updateProduct -->
-
+    <delete id="deleteProduct" parameterType="_int">
+        DELETE
+        FROM  PRODUCT_INFO
+        WHERE PRODUCT_CODE = #{ code }
+    </delete>
     <!-- 7. 제품 정보를 삭제하는 쿼리를 작성하세요.
             (쿼리id) deleteProduct -->
 

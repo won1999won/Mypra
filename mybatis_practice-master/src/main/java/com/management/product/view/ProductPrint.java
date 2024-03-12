@@ -14,7 +14,7 @@ public class ProductPrint {
 
     public void printAllProductList(List<ProductDTO> allProductList) {
 
-        for (ProductDTO alllist:allProductList){
+        for (ProductDTO alllist : allProductList) {
             System.out.println(alllist);
         }
         // 1. 전체 조회한 목록 출력하는 메소드
@@ -24,10 +24,10 @@ public class ProductPrint {
 
     public void printProductList(List<ProductDTO> productList, SearchCondition searchCondition) {
 
-        System.out.println("검색조건:"+searchCondition);
-        if (productList.isEmpty()){
+        System.out.println("검색조건:" + searchCondition);
+        if (productList.isEmpty()) {
             System.out.println("데이터없음");
-        }else {
+        } else {
             System.out.println(productList);
         }
         // 2. 조건에 따라 조회한 목록을 출력하는 메소드
@@ -37,6 +37,14 @@ public class ProductPrint {
     }
 
     public void printSuccessMessage(String successCode) {
+        switch (successCode) {
+            case "update":
+                System.out.println("업데이트 성공");
+            case "delete":
+                System.out.println("삭제 성공");
+            default:
+                System.out.println("값오류");
+        }
 
         // 3. 성공메시지를 출력하는 메소드
         //    (조건) 성공코드를 전달받아 성공을 알리는 메시지를 출력하세요.
@@ -45,9 +53,19 @@ public class ProductPrint {
 
     public void printErrorMessage(String errorCode) {
 
-        // 4. 에러메시지를 출력하는 메소드
-        //    (조건) 에러코드를 전달받아 에러를 알리는 메시지를 출력하세요.
+        switch (errorCode) {
+            case "update":
+                System.out.println("업데이트 실패");
+            case "delete":
+                System.out.println("삭제 실패");
+            default:
+                System.out.println("값오류");
+
+
+                // 4. 에러메시지를 출력하는 메소드
+                //    (조건) 에러코드를 전달받아 에러를 알리는 메시지를 출력하세요.
+
+        }
 
     }
-
 }

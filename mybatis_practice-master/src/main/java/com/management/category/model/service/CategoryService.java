@@ -30,26 +30,51 @@ public class CategoryService {
     }
 
     public boolean registNewCategory(CategoryDTO category) {
+        SqlSession sqlSession = getSqlSession();
+        int result = categoryDAO.insertProduct(category);
+        if (result > 0) {
+            sqlSession.commit();
+        } else {
+            sqlSession.rollback();
+        }
+        sqlSession.close();
 
         // 3. 제품분류 정보를 등록하는 로직을 작성하세요.
         // 　　아래 작성된 return false 과제 툴 오류를 제거하고자 임의 작성하였으니 지우고 로직을 작성하세요.
-        return false;
+        return result > 0 ? true : false;
 
     }
 
     public boolean modifyCategoryName(CategoryDTO category) {
+        SqlSession sqlSession = getSqlSession();
+        int result = categoryDAO.updateMenu(category);
+        if (result > 0) {
+            sqlSession.commit();
+        } else {
+            sqlSession.rollback();
+        }
+        sqlSession.close();
 
         // 4. 제품분류명을 수정하는 로직을 작성하세요.
         // 　　아래 작성된 return false 과제 툴 오류를 제거하고자 임의 작성하였으니 지우고 로직을 작성하세요.
-        return false;
+        return result > 0 ? true : false;
 
     }
 
     public boolean deleteCategory(Map<String, String> parameter) {
+        SqlSession sqlSession = getSqlSession();
+        int result = categoryDAO.deleteMenu(parameter);
+
+        if (result > 0) {
+            sqlSession.commit();
+        } else {
+            sqlSession.rollback();
+        }
+        sqlSession.close();
 
         // 5. 제품분류 정보를 삭제하는 로직을 작성하세요.
         // 　　아래 작성된 return false 과제 툴 오류를 제거하고자 임의 작성하였으니 지우고 로직을 작성하세요.
-        return false;
+        return result > 0 ? true : false;
 
     }
 }
