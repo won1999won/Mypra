@@ -1,0 +1,67 @@
+div[name=name2] {
+    background-color: dodgerblue;
+}
+div[name~=name1]{
+    background-color: blueviolet;
+}
+div[class|=class]{
+    background-color: indianred;
+}
+div[name^=name]{
+    background-color: blue;
+}
+div[class$=class]{
+    background-color: azure;
+}
+div[class*=div]{
+    background-color: chocolate;
+    color: crimson;
+}
+#test1>h4{
+    background-color: darkgoldenrod;
+}
+#test1>ul>li{
+    background-color: aquamarine;
+}
+#test1 ul{
+    background-color: aliceblue;
+}
+#test1 ul{
+    background-color: burlywood;
+}
+#div-test1{
+    background-color: bisque;
+}
+#div-test1+div{
+    background-color: teal;
+}
+
+#active-test,#hover-test{
+width: 150px;
+height: 150px;
+background-color: ghostwhite;
+}
+#active-test:active{
+background-color: bisque;
+color: deepskyblue;
+}
+#hover-test:hover{
+background-color: aqua;
+color: black;
+cursor: pointer;
+font: 40px bold;
+}
+input[type=checbox]:checked{
+width: 50px;
+height: 50px;
+}
+#userID:focus,#userPwd:focus{
+background-color: chartreuse;
+}
+option:disabled{
+background-color: salmon;
+color: cornsilk;
+}
+input:disabled{
+background-color: beige;
+}

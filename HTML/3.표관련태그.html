@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 표 관련태그 -->
+    <h1> 표 만들기</h1>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>8</td>
+        </tr>
+    </table>
+    <!-- 표만드는 태그는 <table></table> <tr></tr> <th></th> <td></td>가있다
+    <table></table>:기본적인 표생성
+    <tr></tr>:표의 행
+    <th></th>:표의 제목셀
+    <td></td>:표의 일반셀 -->
+     <table border="1"><!--1픽셀 솔리드 블록 -->
+        <caption>웹브라우저의 종류</caption>
+        <tr>
+            <td>브라우저</td>
+            <td>제조사</td>
+            <td>홈페이지</td>
+        </tr>
+            <td>익스플로러</td>
+            <td>마소</td>
+            <td>http://www.microsoft.com</td>
+            <tr>
+            <td>사파리</td>
+            <td>애플</td>
+            <td>http://www.apple.com</td>
+        </tr>
+    </table>
+    <h1>표의 행열 합치기</h1>
+    <h3>회원 정보</h3>
+    <!-- rowspan:<td>태그의 속성으로 지정한 행만큼 행을 병합
+    colspan:<td>태그의 속성으로 지정한 열만큼 열을 병합    -->
+    <!-- table>(tr>td*2)*4 -->
+    <table border="1">
+        <tr>
+            <td class="2" rowspan="2" width="130px" height="150px">사진</td>
+            <td width="80px">이름</td>
+            <td whide="200px"></td>
+        </tr>
+        <tr>
+            <td>연락처</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td whith="70px" heigh="50px">주소</td>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td wight="100px">자기소개</td>
+            <td colspan="3"></td>
+        </tr>
+    </table>    
+    <hr>
+    <hr2>테이블 태그 구조설정</hr2>
+    <thead>:테이블의 구조를 나누는 태그로 테이블에 한개만 존재가능
+    <tbody>:테이블에 여러개 존재가능
+    <tfoot>:헤드뒤에있어야하며 한개만존재가능        
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>주소</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+<table>
+    <thead>
+        <tr>
+            <td>111</td>
+            <td>222</td>
+            <td>333</td>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>동</td>
+        <td>서</td>
+        <td>남</td>
+    </tr>
+   </tbody>
+   <tbody>
+    <tr>
+        <td>태을시</td>
+        <td>수수시</td>
+        <td>달달시</td>
+    </tr>
+   </tbody>
+
+   <tfoot>    
+    <tr>
+        <td colspan="2">총인원</td>
+        <td></td>
+        <td>3명</td>
+    </tr>
+</tfoot>
+    
+</table>
+</html>
