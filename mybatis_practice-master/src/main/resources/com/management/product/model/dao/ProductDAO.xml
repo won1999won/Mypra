@@ -54,15 +54,17 @@
         ,CATEGORY_CODE
         ,PRODUCTION_STATUS
         FROM PRODUCT_INFO
-        <if test="searchCondition == productName">
-            WHERE PRODUCT_NAME LIKE CONCAT('%', #{productName}, '%')
-        </if>
-        <if test="searchCondition == '백화점'">
-            AND SALES_QUANTITY = 0
-        </if>
-        <if test="searchCondition == '아울렛'">
-            AND SALES_QUANTITY > 0
-        </if>
+        <set>
+            <if test="searchCondition == productName">
+                WHERE PRODUCT_NAME LIKE CONCAT('%', #{productName}, '%')
+            </if>
+            <if test="searchCondition == '백화점'">
+                AND SALES_QUANTITY = 0
+            </if>
+            <if test="searchCondition == '아울렛'">
+                AND SALES_QUANTITY > 0
+            </if>
+        </set>
     </select>
     <!-- 4. 조건에 따른 목록을 조회하는 쿼리를 작성하세요.
 

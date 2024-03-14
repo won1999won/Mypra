@@ -6,6 +6,7 @@ import com.management.category.view.CategoryPrint;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 public class CategoryController {
 
@@ -15,7 +16,6 @@ private CategoryPrint categoryPrint=new CategoryPrint();
     // 1. 자주 사용할 Service와 Print 객체를 선언하고, Controller 객체 생성 시 생성되도록 작성하세요.
 
     public void selectCategoryList(Map<String, String> parameter) {
-
         List<CategoryDTO> categoryList=categoryService.selectCategoryList(parameter);
         if (categoryList != null){
             categoryPrint.printTeamList(categoryList,parameter);
