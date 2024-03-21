@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0863aa35-39ee-4e02-83b8-5032d2c109c9" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section01/contextlistener/ContextListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section01/contextlistener/ContextListenerTestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section02/sessionlistener/SessionListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section02/sessionlistener/SessionListenerTestSevlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section02/sessionlistener/userDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section03/requestlistener/RequestListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section03/requestlistener/RequestListenerTestServlet.java" afterDir="false" />
+    <list default="true" id="462a039c-f2bc-47e6-9373-96fb669e8cf4" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/contextlistener/ContextListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/contextlistener/ContextListenerTestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/sessionlistener/SessionListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/sessionlistener/SessionListenerTestSevlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/sessionlistener/userDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/requestlistener/RequestListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/requestlistener/RequestListenerTestServlet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/misc.xml" afterDir="false" />
@@ -44,8 +44,8 @@
       <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/5_response.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/errorPage.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/today.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap11-filter-wrapper-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-filter-wrapper-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap11-filter-wrapper-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-filter-wrapper-lecture-source/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +75,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2dwKXtF8LzUxM7DqwQJhl35xJD7" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2dya46XaHoWtW2KQ0PoqNtyzhKp" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -86,35 +86,36 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.chap11-filter-wrapper-lecture-source 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Tomcat 서버.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.chap-12-listener-lecture-source 빌드.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat 서버.Tomcat 10.1.19.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
-        <artifact name="Gradle : com.ohgiraffers : chap11-filter-wrapper-lecture-source-1.0-SNAPSHOT.war">
+        <artifact name="Gradle : com.ohgiraffers : chap-12-listener-lecture-source-1.0-SNAPSHOT.war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="a502cc5a-ae81-4a7f-a7ab-6f53f39db1d9" />
+        <option name="BASE_DIRECTORY_NAME" value="fa752f30-6ecf-4048-947d-571a801efcfd" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -122,7 +123,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63796" />
+        <option name="DEBUG_PORT" value="54361" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -187,7 +188,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : com.ohgiraffers : chap11-filter-wrapper-lecture-source-1.0-SNAPSHOT.war" />
+          <artifact name="Gradle : com.ohgiraffers : chap-12-listener-lecture-source-1.0-SNAPSHOT.war" />
         </option>
       </method>
     </configuration>
@@ -195,13 +196,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="0863aa35-39ee-4e02-83b8-5032d2c109c9" name="변경" comment="" />
-      <created>1710913743809</created>
+      <changelist id="462a039c-f2bc-47e6-9373-96fb669e8cf4" name="변경" comment="" />
+      <created>1710982578279</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1710913743809</updated>
-      <workItem from="1710913744830" duration="8474000" />
-      <workItem from="1710981637777" duration="1277000" />
+      <updated>1710982578279</updated>
+      <workItem from="1710982579295" duration="7228000" />
     </task>
     <servers />
   </component>
