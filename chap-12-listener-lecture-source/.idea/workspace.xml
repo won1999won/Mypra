@@ -5,47 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462a039c-f2bc-47e6-9373-96fb669e8cf4" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/contextlistener/ContextListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/contextlistener/ContextListenerTestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/sessionlistener/SessionListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/sessionlistener/SessionListenerTestSevlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section02/sessionlistener/userDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/requestlistener/RequestListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section03/requestlistener/RequestListenerTestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/java/com/ohgiraffers/menu/controller/MenuOderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/java/com/ohgiraffers/menu/model/service/controller/MenuPriceCalcullator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_1_005fsampleJspStates_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_1_005fsampleJspStates_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_2_005fpageDirective_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_2_005fpageDirective_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_3_005fincludeDirective_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_3_005fincludeDirective_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_5_005fresponse_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_5_005fresponse_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/errorPage_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/errorPage_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/1_sampleJspStates.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/2_pageDirective.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/3_includeDirective.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/4_request.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/5_response.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/errorPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/today.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap11-filter-wrapper-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-filter-wrapper-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap11-filter-wrapper-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap11-filter-wrapper-lecture-source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +35,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2dya46XaHoWtW2KQ0PoqNtyzhKp" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -86,23 +46,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.chap-12-listener-lecture-source 빌드.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat 서버.Tomcat 10.1.19.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.chap-12-listener-lecture-source 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat 서버.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
@@ -202,6 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710982578279</updated>
       <workItem from="1710982579295" duration="7228000" />
+      <workItem from="1711066551468" duration="54000" />
     </task>
     <servers />
   </component>

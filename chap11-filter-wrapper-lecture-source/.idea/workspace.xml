@@ -5,46 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0863aa35-39ee-4e02-83b8-5032d2c109c9" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section01/contextlistener/ContextListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section01/contextlistener/ContextListenerTestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section02/sessionlistener/SessionListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section02/sessionlistener/SessionListenerTestSevlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section02/sessionlistener/userDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section03/requestlistener/RequestListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/src/main/java/com/ohgiraffers/section03/requestlistener/RequestListenerTestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/java/com/ohgiraffers/menu/controller/MenuOderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/java/com/ohgiraffers/menu/model/service/controller/MenuPriceCalcullator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_1_005fsampleJspStates_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_1_005fsampleJspStates_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_2_005fpageDirective_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_2_005fpageDirective_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_3_005fincludeDirective_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_3_005fincludeDirective_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_5_005fresponse_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/_5_005fresponse_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/errorPage_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/META-INF/jsp/org/apache/jsp/jsp/errorPage_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/1_sampleJspStates.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/2_pageDirective.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/3_includeDirective.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/4_request.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/5_response.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/errorPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/src/main/webapp/jsp/today.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap-12-listener-lecture-source/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap-13-JSP-lecture-source/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,6 +165,8 @@
       <updated>1710913743809</updated>
       <workItem from="1710913744830" duration="8474000" />
       <workItem from="1710981637777" duration="1277000" />
+      <workItem from="1711066552280" duration="58000" />
+      <workItem from="1711069081123" duration="131000" />
     </task>
     <servers />
   </component>
